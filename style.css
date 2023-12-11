@@ -22,7 +22,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+*:focus {
+   outline: 2px dashed #7296ec;
+}
 /* BUTTON*/
 .button {
   display: inline-block;
@@ -56,8 +58,7 @@ img {
 }
 
 /* SITE HEADER*/
-.site-header {
-}
+
 
 /* SITE HEADER TOP*/
 .site-header-top {
@@ -101,7 +102,21 @@ img {
 }
 
 
-/* language togglr*/
+/* GLOBAL SEARCH FORM*/
+
+.global-search-from-input {
+   padding-top: 15px;
+   padding-bottom: 13px;
+   padding-left: 40px;
+   padding-right: 20px;
+   margin-right: 25px;
+   border-radius: 60px;
+   border: 0;
+   font-size: 14px;
+   line-height: normal;
+}
+
+/* language toggler*/
 .lang-toggle {
   display: flex;
   padding: 3px;
