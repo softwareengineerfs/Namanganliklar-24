@@ -205,6 +205,8 @@ img {
   margin-bottom: 10px;
 }
 .article-card {
+  display: flex;
+  flex-direction: column;
   padding: 20px 17px 15px 17px;
   background-color: #f6f6f6;
   border-radius: 15px;
@@ -215,6 +217,7 @@ img {
   line-height: 26px;
   font-weight: 550;
   margin-bottom: 10px;
+}
 
 .article-card-link {
   display: inline-block;
@@ -235,17 +238,29 @@ img {
   object-fit: cover;
 }
 .article-card-img {
+  margin-top: auto;
+  display: block;
   width: 360px;
   height: 165px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  object-fit: cover;
 }
 .article-card-footer {
   display: flex;
   align-items: center;
 }
 .article-card-source-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
 
 }
 .article-card-source-time {
+  font-size: 12px;
+  line-height: normal;
+  color: #5e5f61;
 
 }
 .article-card-source {
