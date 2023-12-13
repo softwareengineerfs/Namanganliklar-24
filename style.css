@@ -29,6 +29,7 @@ img {
 .button {
   display: inline-block;
   padding: 13px 20px;
+  border: 0;
   border-radius: 10px;
   font-size: 16px;
   line-height: normal;
@@ -41,11 +42,16 @@ img {
   background-color: #7296ec;
   color: #fff;
 }
-.button-primary:hover {
+.button:hover {
    opacity: 0.8;
 }
-.button-primary:active{
+.button:active{
    opacity: 0.6;
+}
+
+.button-orange {
+  background-color: #f7883b;
+  color: #fff;
 }
 
 .container {
@@ -263,5 +269,21 @@ img {
   color: #5e5f61;
 
 }
-.article-card-source {
+
+
+/* NOTIFICATION CTA */
+.notification-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 70px 25px 25px;
+  margin: 60px 75px;
+  border-radius: 15px;
+  background-color: rgb(173, 141, 14);
+}
+.notification-cta-text {
+  font-size: 28x;
+  line-height: 26px;
+  font-weight: 550;
+  color: #000;
 }
