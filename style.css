@@ -125,6 +125,10 @@ img {
    border: 0;
    font-size: 14px;
    line-height: normal;
+   background-image: url("img/lupa.svg");
+   background-repeat: no-repeat;
+   background-size: 15px;
+   background-position: 15px center;
 }
 
 /* language toggler*/
@@ -288,6 +292,10 @@ img {
   margin: 60px 75px;
   border-radius: 15px;
   background-color: rgb(207, 188, 115);
+  background-image: url("img/notification-cta.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 .notification-cta-text {
   font-size: 28px;
